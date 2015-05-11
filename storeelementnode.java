@@ -22,3 +22,10 @@ public BTPosition<E> getLeft() {return left;}
 public void setLeft(BTPosition<E> v) {left=v;}
 /*Returns the right child of this position*/
 public BTPosition<E> getRight() {return right;}
+/*Sets the right child to this position*/
+public void setRight(BTPosition<E> v) {right=v;}
+/*Returns the parent of this position*/
+public BTPosition<E> getParent() {return parent;}
+/*Sets the parent of this position*/
+public void setParent(BTPosition<E> v){parent=v;}
+}
